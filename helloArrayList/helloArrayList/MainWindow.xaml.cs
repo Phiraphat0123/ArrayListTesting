@@ -49,8 +49,10 @@ namespace helloArrayList
             {
                 MessageBox.Show("ไม่สามารถลบได้เนื่องจาก Array List มีค่าเป็น 0");
             }
-            else { al.Remove(input);
-            count.Text = "Count : " + al.Count;}
+            else { al.Remove(int.Parse(input.Text));
+            count.Text = "Count : " + al.Count;
+             input.Text = "";
+            }
             
         }
 
