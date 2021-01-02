@@ -28,7 +28,7 @@ namespace helloArrayList
             al = new ArrayList();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void add_Click(object sender, RoutedEventArgs e)
         {
             if (input.Text == "")
             {
